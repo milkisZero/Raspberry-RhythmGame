@@ -2,8 +2,11 @@
 
 컴파일방법
 server.c : gcc -o server server.c -lwiringPi -pthread
+
 attacker.c : gcc -o attacker attacker.c -lwiringPi -pthread
+
 defender.c : gcc -o defender defender.c -lwiringPi -pthread
+
 display.c : gcc -o display display.c -lwiringPi
 
 실행방법 : 다음과 같은 순서대로 파일을 실행한다.
